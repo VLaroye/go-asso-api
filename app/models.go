@@ -1,4 +1,4 @@
-package main
+package app
 
 type Member struct {
 	ID   int    `json:"id"`

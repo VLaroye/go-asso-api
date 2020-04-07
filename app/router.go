@@ -1,8 +1,8 @@
-package main
+package app
 
 import "github.com/gorilla/mux"
 
-func newRouter() *mux.Router {
+func NewRouter() *mux.Router {
 	router := mux.NewRouter().StrictSlash(true)
 
 	router.Use(headersMiddleware)
