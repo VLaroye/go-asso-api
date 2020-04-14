@@ -26,4 +26,10 @@ var apiRoutes = routes{
 		Pattern:     "/members",
 		HandlerFunc: getMembersHandler,
 	},
+	route{
+		Name:        "CreateMember",
+		Method:      "POST",
+		Pattern:     "/members",
+		HandlerFunc: createMemberHandler,
+	},
 }
